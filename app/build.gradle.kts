@@ -44,4 +44,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+
+    // Mockito for unit test
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.inline)
 }
